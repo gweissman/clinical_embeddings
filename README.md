@@ -19,7 +19,7 @@ Pre-trained word embeddings using the text of published clinical case reports.
 
 ## Details
 
-Word embeddings are compatible with the `gensim` Python package format.
+Word embeddings are compatible with the [`gensim` Python package](https://radimrehurek.com/gensim/) format.
 
 
 
