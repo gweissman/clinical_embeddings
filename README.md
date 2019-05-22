@@ -7,7 +7,14 @@ Pre-trained word embeddings using the text of published clinical case reports.
 
 ## Download
 
-- word2vec model (300 dimensions) trained on clinical case reports from the PubMed OpenAccess Subset: https://github.com/gweissman/clinical_embeddings/releases/download/v0.1/w2v_300d_oa_cr.tar.gz
+| Model | Dimension | Open Access Case Reports | Open Access All Manuscripts |
+| word2vec | 100 | [Download - 269 MB](https://upenn.box.com/s/6sqzqvcunar39324adgy8qncm7yam6hu) | |
+|          | 300 | | |
+|          | 600 | | |
+| fastText | 100 | | |
+|          | 300 | | |
+|          | 600 | | |
+
 
 ## Details
 
