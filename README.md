@@ -12,7 +12,7 @@ Pre-trained word embeddings using the text of published clinical case reports.
 | word2vec | 100 | [Download - 269 MB](https://upenn.box.com/s/6sqzqvcunar39324adgy8qncm7yam6hu) | |
 |          | 300 | | |
 |          | 600 | | |
-| fastText | 100 | | |
+| fastText | 100 | [Download - 798 MB](https://upenn.box.com/s/03tlndnc00zs9glxqmi0n3bbp5aio4gr)| |
 |          | 300 | | |
 |          | 600 | | |
 
