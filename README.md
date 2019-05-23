@@ -24,6 +24,30 @@ Pre-trained word embeddings using the text of published clinical case reports.
 
 Word embeddings are compatible with the [`gensim` Python package](https://radimrehurek.com/gensim/) format.
 
+## Quick start
 
+First download and extract the files from each archive.
 
+```bash
+tar -xvf w2v_100d_oa_all.tar.gz
+```
+
+Then load the embeddings into Python.
+
+```python
+from gensim.models import FastText, Word2Vec, KeyedVectors # KeyedVectors are used to load the GloVe models
+
+# Load the model
+model = Word2Vec.load('w2v_oa_all_100d.bin')
+
+# Return 100-dimensional vector representations of each word
+model.wv.word_vec('diabetes')
+model.wv.word_vec('cardiac_arrest')
+model.wv.word_vec('lymphangioleiomyomatosis')
+
+# Try out cosine similarity
+model.wv.similarity('copd', 'chronic_obstructive_pulmonary_disease')
+model.wv.similarity('myocardial_infarction', 'heart_attack')
+model.wv.similarity('lymphangioleiomyomatosis', 'lam')
+```
 
