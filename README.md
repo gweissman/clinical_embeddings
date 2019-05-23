@@ -1,6 +1,6 @@
 # Clinical Word Embeddings
 
-By Zach Flamholz, Lyle Ungar, Gary Weissman
+By Zachary Flamholz, [Lyle Ungar](http://www.cis.upenn.edu/~ungar/), [Gary Weissman](http://pair.upenn.edu/people/core-faculty/gary-weissman)
 
 ## Description
 Pre-trained word embeddings using the text of published clinical case reports.
